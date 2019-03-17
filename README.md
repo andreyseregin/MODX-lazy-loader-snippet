@@ -1,13 +1,14 @@
 # MODX Revolution Snippet for lazy loading iframes, YouTube iframes and images on website
 
-** 
-Made By [andreyseregin.com](https://andreyseregin.com)
-
-Digital Agency | We create websites, design, apps and more, more cool stuff
 ![alt text][logo]
 
 [logo]: https://andreyseregin.com/wp-content/themes/andreyseregin/img/logo.png "AndreySeregin.com LOGO"
-**
+
+__
+Made By [andreyseregin.com](https://andreyseregin.com)
+
+Digital Agency | We create websites, design, apps and more, more cool stuff
+__
 
 ## INITIALISATION
 To enable lazy loading of iframes and imgs import these libraries (jquery, intersection-observer pollyfill and lazyload js):
