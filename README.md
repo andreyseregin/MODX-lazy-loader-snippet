@@ -4,11 +4,23 @@
 
 [logo]: https://andreyseregin.com/wp-content/themes/andreyseregin/img/logo.png "AndreySeregin.com LOGO"
 
-__
+
 Made By [andreyseregin.com](https://andreyseregin.com)
 
 Digital Agency | We create websites, design, apps and more, more cool stuff
-__
+
+## TO SUPPORT YOU CAN:
+
+* DONATE:
+    [YANDEX MONEY](https://money.yandex.ru/to/410014687961527)
+    
+* ORDER A SERVICE:
+    [Pricing](https://andreyseregin.com/pricing)
+    [Order Form](https://andreyseregin.com/order)
+
+* SUBSCRIBE TO US IN SOCIAL MEDIA
+    [FACEBOOK](https://www.facebook.com/digitalagencykosino)
+    [VK](https://vk.com/digitaldevelopment)
 
 ## INITIALISATION
 To enable lazy loading of iframes and imgs import these libraries (jquery, intersection-observer pollyfill and lazyload js):
