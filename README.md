@@ -1,0 +1,1 @@
+# MODX-lazy-loader-snippet
