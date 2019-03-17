@@ -1,14 +1,20 @@
-# MODX-lazy-loader-snippet
+# MODX Revolution Snippet for lazy loading iframes, YouTube iframes and images on website
 
+## Made By andreyseregin.com
+[logo]: https://andreyseregin.com/wp-content/themes/andreyseregin/img/logo.png "Logo Title Text 2"
+
+## INITIALISATION
 To enable lazy loading of iframes and imgs import these libraries (jquery, intersection-observer pollyfill and lazyload js):
     
-Import in HTML
-
+### Import in HTML
+```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.5.1/intersection-observer.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.5/dist/lazyload.min.js"></script>
-    
-ADD THIS TO JS CODE
+```
+
+### ADD THIS TO JS CODE
+```javascript
 // JS FOR INITIALISING LAZYLOAD JS
 var lazyLoadInstance = new LazyLoad({
    elements_selector: ".lazy-load"
@@ -25,3 +31,6 @@ $('.youtube-lazy-load').mouseover(function() {
    const style = $(this).attr('style');
    $(this).parent().html('<iframe src="'+ src +'" allow="'+ allow +'" style="'+ style +'"></iframe>')
 });
+```
+
+### LASTLY IMPORT CODE FROM snippet.php TO SNIPPETS IN MODX REVOLUTION
