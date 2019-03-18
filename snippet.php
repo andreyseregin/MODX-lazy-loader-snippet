@@ -130,4 +130,4 @@ foreach ( $images as $image) {
 // End check
 
 
-return $dom->saveHTML(); // Save data
+return $dom->saveHTML($dom->documentElement); // Save data
