@@ -32,7 +32,7 @@ $content = $input; //$input is the exact source to be attacked
 
 // Initialisation
 $dom = new DOMDocument();
-$dom->loadHTML(mb_convert_encoding($content, 'HTML-ENTITIES', 'UTF-8'), LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+$dom->loadHTML(mb_convert_encoding($content, 'HTML-ENTITIES', 'UTF-8'));
 $xp = new DOMXPath($dom);
 // END
 
@@ -129,5 +129,9 @@ foreach ( $images as $image) {
 }
 // End check
 
-
-return $dom->saveHTML($dom->documentElement); // Save data
+$dom->removeChild($dom->doctype); 
+$content = $dom->saveHTML($dom->documentElement);
+// remove <html><body></body></html> 
+$content = str_replace('<html><body>', '', $content);
+$content = str_replace('</body></html>', '', $content);
+return $content;
