@@ -52,4 +52,14 @@ $('.youtube-lazy-load').mouseover(function() {
 });
 ```
 
+### Wrap HTML content in Snippet
+```
+// Instead of XXXXXX paste the name of the snippet
+[[XXXXXX?&input=`
+
+    // Paste content here
+
+ `]]
+```
+
 ### LASTLY IMPORT CODE FROM snippet.php TO SNIPPETS IN MODX REVOLUTION
