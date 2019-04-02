@@ -129,7 +129,7 @@ foreach ( $images as $image) {
 }
 // End check
 
-$dom->removeChild($dom->doctype); 
+// $dom->removeChild($dom->doctype); 
 $content = $dom->saveHTML($dom->documentElement);
 // remove <html><body></body></html> 
 $content = str_replace('<html><body>', '', $content);
